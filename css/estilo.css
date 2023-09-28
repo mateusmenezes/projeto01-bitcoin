@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+#aviso-topo {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    padding-top: 12px;
+    text-align: center;
+    min-width: 1100px;
+    color: white;
+    background-color: rgb(8, 143, 4);
+}
+/* 
+    configurando container
+*/
+
+#container {
+    box-sizing: border-box;
+    min-width: 1200px;
+    border: 1px solid rgb(74, 39, 197);
+    width: 100%;
+}
+/* 
+        Formatando cabeçalho
+*/
+header {
+    width: 1200px;
+    margin: 10px auto 5px auto;
+
+}
+#container-topo {
+    display: flex;
+    justify-content: space-around;
+}
+#logo h1{
+    float: left;
+    margin: 0;
+}
+#logo a{
+    width: 400px;
+    height: 70px;
+    background: url(../imagens/logo.png);
+    display: block;
+    text-indent: -9000px;
+}
+#brasil {
+    height: 70px;
+    background: rgb(192, 191, 191);
+    border-radius: 70px 130px 130px 70px ;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+ 
+} 
+#container-topo h3 {
+    padding: 16px 3px 0 6px;
+    
+}
+#brasil img {
+    float: left;
+    margin-left: 10px;
+    border-radius: 100%;
+}
+#pessoa {
+    height: 70px;
+    background: rgb(192, 191, 191);
+    border-radius: 70px 130px 130px 70px ;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+}
+#pessoa img {
+    float: left;
+    margin-left: 10px;
+
+    border-radius: 95%;
+}
+
+/* 
+    conteudo principal
+*/
+#principal {
+    display: flex;
+    justify-content: center;
+    background: green url(../imagens/imagem1.jpg) no-repeat center top;
+    background-size: cover;
+    height: 400px;
+    /* min-width: 1200px; */
+ }
+
+ #video {
+    width: 600px;
+    height: 400px;
+    margin: 90px 100px 0 0;
+    border: 10px solid rgb(8, 143, 4);
+    box-shadow: 0px 0px 10px 6px black ;
+    float: left;
+ }
+
+#formulario {
+    width: 360px;
+    height: 350px;
+    margin-top: 110px;
+    background: chartreuse;
+    float: left;
+    border: 10px solid rgb(8, 143, 4);
+    box-shadow: 0 0 10px 6px black;
+}
+/* 
+   formatando formulario
+*/
+#formulario h4 {
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: url(../imagens/imagem-cadastro.jpg);
+    height: 100px;
+}
+
+.campo {
+    box-sizing: border-box;
+    width: 340px;
+    height: 45px;
+    padding: 10px;
+    margin: 8px;
+    line-height: 100%;
+    border-radius: 12px;
+    border: none;
+}
+.campo:hover {
+    border: 2px solid rgb(170, 177, 238);
+}
+input.submit {
+    border: none;
+    width: 340px;
+    height: 45px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+input.submit:hover {
+    background: rgb(98, 245, 98);
+}
+
+#imagens {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* 
+    editando conteudo
+*/
+
+#informacoes {
+    margin-top: 190px;
+    background: url(../imagens/background.jpg) no-repeat center bottom;
+    background-size: cover;
+    text-align: center;
+    height: 250px;
+}
+#informacoes h1 {
+    padding: 110px 0 0 0;
+    font-size: 40px;
+}
+
+#testemunha {
+    box-sizing: border-box;
+    height: 300px;
+    /* min-width: 1200px; */
+    background-color: gray;
+}
+.pessoa:hover {
+    opacity: 0.5;
+}
+.pessoa {
+    height: 300px;
+    width: 25%;
+    float: left;
+    color:green;
+    font-size: 23px;
+    text-align: center;
+    text-transform: uppercase;
+    /* border: 1px solid red; */
+}
+.pessoa1 {
+    background: url(../imagens/pessoa1.jpg) no-repeat center;
+}
+.pessoa2 {
+    background: url(../imagens/pessoa2.jpg) no-repeat center;
+}
+.pessoa3 {
+    background: url(../imagens/pessoa3.jpg) no-repeat center;
+}
+.pessoa4{
+    background: url(../imagens/pessoa4.jpg) no-repeat center left;
+}
+
+/* 
+    formatando rodape
+*/
+
+footer {
+    height: 60px;
+    background: rgb(8, 143, 4);
+    display: flex;
+    justify-content: space-around;
+}
+
+.part-1{
+    padding:22px;
+    margin-left: -200px;
+    color: rgb(5, 17, 85);
+}
+ul {
+    padding-top: 22px;
+    list-style: none;
+    margin-right: -200px;
+}
+ul li {
+    float: left;
+    padding: 0 10px;
+    color: rgb(5, 17, 85);
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(5, 17, 85);
+}
+ul li a:hover{
+    color: rgb(154, 250, 116);
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(154, 250, 116);
+}
